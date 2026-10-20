@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Raco 3D | Impresión 3D de alta precisión</title>
+<meta name="description" content="Servicios de impresión 3D, prototipado, piezas personalizadas, modelado y producción en serie.">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="es_AR">
+<meta property="og:site_name" content="Raco 3D">
+<meta property="og:title" content="Raco 3D | Impresión 3D de alta precisión">
+<meta property="og:description" content="Materializamos tus ideas con precisión 3D.">
+<meta property="og:url" content="https://raco-3d.vercel.app/">
+<meta property="og:image" content="https://raco-3d.vercel.app/assets/images/logo.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" type="image/png" href="assets/images/logo-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com/3.4.17"></script>
+<script src="js/tailwind-config.js"></script>
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<header class="fixed top-0 inset-x-0 z-50 bg-black/70 backdrop-blur-xl border-b border-white/5">
+  <div class="max-w-6xl mx-auto flex items-center justify-between px-5 h-16">
+    <a href="#inicio" class="flex items-center gap-2 font-display font-black text-lg tracking-wider">
+      <img src="assets/images/logo-icon.png" alt="" width="28" height="28" class="object-contain">
+      RACO<span class="text-neon">3D</span>
+    </a>
+    <nav class="hidden md:flex items-center gap-8 text-sm text-[#A0A0A0]">
+      <a class="hover:text-neon transition" href="#inicio">Inicio</a>
+      <a class="hover:text-neon transition" href="#servicios">Servicios</a>
+      <a class="hover:text-neon transition" href="#galeria">Galería</a>
+      <a class="hover:text-neon transition" href="#contacto">Contacto</a>
+    </nav>
+    <a href="#contacto" class="hidden sm:inline-block border border-neon text-neon hover:bg-neon hover:text-black px-4 py-2 rounded text-sm font-semibold transition glow">Cotizar Proyecto</a>
+    <details class="md:hidden relative">
+      <summary class="list-none cursor-pointer text-neon p-2" aria-label="Menú">
+        <svg width="26" height="26" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 7h20M3 13h20M3 19h20"/></svg>
+      </summary>
+      <div class="absolute right-0 mt-3 w-52 bg-ink border border-neon/40 rounded-lg p-4 flex flex-col gap-3 text-sm">
+        <a href="#inicio">Inicio</a><a href="#servicios">Servicios</a><a href="#galeria">Galería</a><a href="#contacto">Contacto</a>
+        <a href="#contacto" class="border border-neon text-neon text-center rounded py-2 font-semibold">Cotizar Proyecto</a>
+      </div>
+    </details>
+  </div>
+</header>
+
+<main>
+<section id="inicio" class="hex-bg relative pt-32 pb-24 md:pt-44 md:pb-36 px-5">
+  <div class="absolute inset-0 bg-[radial-gradient(ellipse_at_50%_0%,rgba(30,144,255,.22),transparent_60%)] pointer-events-none"></div>
+  <div class="relative max-w-4xl mx-auto text-center">
+    <p class="font-display text-xs md:text-sm tracking-[.35em] text-neon mb-5">IMPRESIÓN 3D · ALTA PRECISIÓN</p>
+    <h1 class="font-display font-black text-3xl sm:text-5xl md:text-6xl leading-tight">Materializamos tus Ideas con <span class="text-neon glow-text">Precisión 3D</span></h1>
+    <p class="mt-6 text-[#A0A0A0] text-base md:text-lg max-w-2xl mx-auto">Servicios de impresión 3D de alta calidad: desde un prototipo funcional hasta series completas, con acabados técnicos y tiempos de entrega ágiles.</p>
+    <div class="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
+      <a href="#contacto" class="bg-neon hover:bg-neond text-black font-bold px-8 py-3.5 rounded glow transition">Sube tu archivo 3D</a>
+      <a href="#galeria" class="border border-white text-white hover:bg-white hover:text-black font-semibold px-8 py-3.5 rounded transition">Ver Trabajos</a>
+    </div>
+    <dl class="mt-16 grid grid-cols-3 gap-4 max-w-xl mx-auto">
+      <div><dt class="font-display text-2xl md:text-3xl text-neon font-bold">0.1mm</dt><dd class="text-xs text-[#A0A0A0] mt-1">Resolución de capa</dd></div>
+      <div><dt class="font-display text-2xl md:text-3xl text-neon font-bold">48h</dt><dd class="text-xs text-[#A0A0A0] mt-1">Entrega express</dd></div>
+      <div><dt class="font-display text-2xl md:text-3xl text-neon font-bold">+10</dt><dd class="text-xs text-[#A0A0A0] mt-1">Materiales</dd></div>
+    </dl>
+  </div>
+</section>
+
+<section id="servicios" class="py-20 md:py-28 px-5 bg-[#0A0A0A]">
+  <div class="max-w-6xl mx-auto">
+    <h2 class="font-display font-bold text-2xl md:text-4xl text-center">Nuestros <span class="text-neon">Servicios</span></h2>
+    <p class="text-center text-[#A0A0A0] mt-3 mb-14">Soluciones de fabricación aditiva para cada etapa de tu proyecto.</p>
+    <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+      <article class="card rounded-xl p-6">
+        <div class="hex w-14 h-14 bg-neon/15 flex items-center justify-center mb-5"><svg width="26" height="26" fill="none" stroke="#1E90FF" stroke-width="1.8"><path d="M13 2L4 14h7l-1 10 9-12h-7z"/></svg></div>
+        <h3 class="font-display font-bold text-lg mb-2">Prototipado Rápido</h3>
+        <p class="text-sm text-[#A0A0A0]">Validá tu diseño en horas, no semanas. Iterá con piezas físicas reales.</p>
+      </article>
+      <article class="card rounded-xl p-6">
+        <div class="hex w-14 h-14 bg-neon/15 flex items-center justify-center mb-5"><svg width="26" height="26" fill="none" stroke="#1E90FF" stroke-width="1.8"><circle cx="13" cy="13" r="4"/><path d="M13 2v4M13 20v4M2 13h4M20 13h4M5 5l3 3M18 18l3 3M21 5l-3 3M8 18l-3 3"/></svg></div>
+        <h3 class="font-display font-bold text-lg mb-2">Piezas Personalizadas</h3>
+        <p class="text-sm text-[#A0A0A0]">Repuestos, soportes y accesorios a medida en el material que necesites.</p>
+      </article>
+      <article class="card rounded-xl p-6">
+        <div class="hex w-14 h-14 bg-neon/15 flex items-center justify-center mb-5"><svg width="26" height="26" fill="none" stroke="#1E90FF" stroke-width="1.8"><path d="M13 2l10 6v10l-10 6L3 18V8z"/><path d="M13 14l10-6M13 14L3 8M13 14v10"/></svg></div>
+        <h3 class="font-display font-bold text-lg mb-2">Modelado 3D</h3>
+        <p class="text-sm text-[#A0A0A0]">Convertimos tus bocetos o medidas en modelos listos para imprimir.</p>
+      </article>
+      <article class="card rounded-xl p-6">
+        <div class="hex w-14 h-14 bg-neon/15 flex items-center justify-center mb-5"><svg width="26" height="26" fill="none" stroke="#1E90FF" stroke-width="1.8"><rect x="3" y="3" width="8" height="8"/><rect x="15" y="3" width="8" height="8"/><rect x="3" y="15" width="8" height="8"/><rect x="15" y="15" width="8" height="8"/></svg></div>
+        <h3 class="font-display font-bold text-lg mb-2">Producción en Serie</h3>
+        <p class="text-sm text-[#A0A0A0]">Lotes consistentes con control de calidad y precios por volumen.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section id="galeria" class="py-20 md:py-28 px-5">
+  <div class="max-w-6xl mx-auto">
+    <h2 class="font-display font-bold text-2xl md:text-4xl text-center">Galería de <span class="text-neon">Trabajos</span></h2>
+    <p class="text-center text-[#A0A0A0] mt-3 mb-14">Una muestra de lo que fabricamos. (Reemplazá estos placeholders por tus fotos.)</p>
+    <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+      <figure class="tile rounded-xl aspect-square md:row-span-2 md:aspect-auto md:min-h-[26rem] flex flex-col items-center justify-center gap-3">
+        <svg width="90" height="90" viewBox="0 0 64 64" fill="none" stroke="#1E90FF" stroke-width="2"><circle cx="32" cy="32" r="10"/><circle cx="32" cy="32" r="22" stroke-dasharray="6 5"/><circle cx="32" cy="32" r="3"/></svg>
+        <figcaption class="font-display text-xs tracking-widest text-[#A0A0A0]">ENGRANAJES</figcaption>
+      </figure>
+      <figure class="tile rounded-xl aspect-square flex flex-col items-center justify-center gap-3">
+        <svg width="70" height="70" viewBox="0 0 64 64" fill="none" stroke="#1E90FF" stroke-width="2"><circle cx="32" cy="16" r="8"/><path d="M20 56V34l12-6 12 6v22z"/></svg>
+        <figcaption class="font-display text-xs tracking-widest text-[#A0A0A0]">FIGURAS</figcaption>
+      </figure>
+      <figure class="tile rounded-xl aspect-square flex flex-col items-center justify-center gap-3">
+        <svg width="70" height="70" viewBox="0 0 64 64" fill="none" stroke="#1E90FF" stroke-width="2"><path d="M32 6l22 13v26L32 58 10 45V19z"/><path d="M32 32l22-13M32 32L10 19M32 32v26"/></svg>
+        <figcaption class="font-display text-xs tracking-widest text-[#A0A0A0]">PROTOTIPOS</figcaption>
+      </figure>
+      <figure class="tile rounded-xl aspect-square flex flex-col items-center justify-center gap-3">
+        <svg width="70" height="70" viewBox="0 0 64 64" fill="none" stroke="#1E90FF" stroke-width="2"><rect x="8" y="22" width="48" height="20" rx="3"/><circle cx="20" cy="32" r="4"/><circle cx="44" cy="32" r="4"/></svg>
+        <figcaption class="font-display text-xs tracking-widest text-[#A0A0A0]">MECANISMOS</figcaption>
+      </figure>
+      <figure class="tile rounded-xl aspect-square flex flex-col items-center justify-center gap-3">
+        <svg width="70" height="70" viewBox="0 0 64 64" fill="none" stroke="#1E90FF" stroke-width="2"><path d="M12 52V28l20-16 20 16v24z"/><path d="M26 52V38h12v14"/></svg>
+        <figcaption class="font-display text-xs tracking-widest text-[#A0A0A0]">MAQUETAS</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<section id="contacto" class="px-5 py-16 md:py-20 bg-gradient-to-r from-[#00265a] via-[#003a85] to-[#00265a] border-y border-neon/40">
+  <div class="max-w-4xl mx-auto text-center">
+    <h2 class="font-display font-bold text-2xl md:text-4xl">¿Tenés un diseño? Te lo cotizamos <span class="text-neon glow-text">sin cargo</span></h2>
+    <p class="mt-4 text-white/80 max-w-xl mx-auto">Enviá tu archivo STL, OBJ o 3MF y recibí un presupuesto detallado en menos de 24 horas.</p>
+    <a href="mailto:contacto@raco3d.com?subject=Cotización%20de%20proyecto" class="inline-block mt-8 bg-white text-[#001a40] font-bold px-8 py-3.5 rounded hover:bg-neon hover:text-black transition">Enviar mi diseño</a>
+  </div>
+</section>
+</main>
+
+<footer class="bg-black px-5 py-10 border-t border-white/5">
+  <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6 text-sm text-[#A0A0A0]">
+    <div class="font-display font-black text-white tracking-wider">RACO<span class="text-neon">3D</span></div>
+    <a href="mailto:contacto@raco3d.com" class="hover:text-neon transition">contacto@raco3d.com</a>
+    <div class="flex gap-5">
+      <a href="https://www.instagram.com/raco3d?rpxt=aTRnM2l6Zm5lb2Nj" aria-label="Instagram" class="hover:text-neon transition"><svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="2" width="18" height="18" rx="5"/><circle cx="11" cy="11" r="4"/><circle cx="16" cy="6" r="1" fill="currentColor"/></svg></a>
+      <a href="#" aria-label="Facebook" class="hover:text-neon transition"><svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M13 20v-8h3l.5-3H13V7c0-1 .5-1.5 1.5-1.5H17V3h-3c-2.5 0-4 1.5-4 4v2H7v3h3v8z"/></svg></a>
+      <a href="#" aria-label="WhatsApp" class="hover:text-neon transition"><svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 19l1.3-4.2A8 8 0 1 1 7.5 18z"/><path d="M8 8c0 4 3 7 7 7l1-2-2-1-1 1c-1-.5-2-1.500-2.500-2.500l1-1-1-2z"/></svg></a>
+    </div>
+    <p class="text-xs">© 2026 Raco 3D. Todos los derechos reservados.</p>
+  </div>
+</footer>
+</body>
+</html>
